@@ -1,0 +1,24 @@
+{
+    "name": "sample-service",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"No tests configured yet\"",
+        "start": "node server.js"
+    },
+    "keywords": [
+        "mcp",
+        "automation",
+        "learning-project"
+    ],
+    "author": "",
+    "license": "MIT",
+    "description": "This project is a small MCP-based automation learning service.",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.12.3",
+        "dotenv": "^16.5.0",
+        "googleapis": "^150.0.1",
+        "zod": "^3.25.64"
+    }
+}
